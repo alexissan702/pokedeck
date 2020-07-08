@@ -17,7 +17,7 @@ display.addEventListener('click', run);
         index=0;
     }
     else
-        name.src = pokeArray[index++].name;
+        name.innrHTML = pokeArray[index++].name;
         image.src = pokeArray[index++].image;
     }
 
