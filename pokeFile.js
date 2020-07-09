@@ -8,7 +8,7 @@ let pokeArray = [
   
   ];
 var display = document.getElementById("display");
-var name = document.getElementById("name");
+var pokeName = document.getElementById("name");
 var image = document.getElementById("pokemon");
 let index = 0;
 display.addEventListener('click', run);
@@ -17,7 +17,7 @@ display.addEventListener('click', run);
         index=0;
     }
     else {
-        name.innrHTML = pokeArray[index].name;
+       pokeName.innrHTML = pokeArray[index].name;
         image.src = pokeArray[index].image;
     }
     index++;
