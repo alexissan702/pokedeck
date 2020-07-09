@@ -16,9 +16,11 @@ display.addEventListener('click', run);
     if (index > pokeArray.length) {
         index=0;
     }
-    else
-        name.innrHTML = pokeArray[index++].name;
-        image.src = pokeArray[index++].image;
+    else {
+        name.innrHTML = pokeArray[index].name;
+        image.src = pokeArray[index].image;
+    }
+    index++;
     }
 
 
